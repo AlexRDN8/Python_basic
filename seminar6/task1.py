@@ -17,6 +17,7 @@ def arithmetic_progression(first_element, difference, amount_elements):
         element = first_element + (i - 1) * difference
         list.append(element)
     return list
+
 print(arithmetic_progression(first_element, difference, amount_elements))
 
 
